@@ -6,7 +6,7 @@ const server = require("http").createServer(app);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.get("/", (req,res)=>{
-    res.send("tesst");
+    res.send("demo");
 });
 server.listen(port, (req, res) => {
     console.log("Server is runing port: " + port);
